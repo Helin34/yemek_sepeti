@@ -19,7 +19,7 @@ Proje, restoranları listeleme, menüleri görüntüleme ve asenkron veri yönet
 
 Aşağıdaki GIF, projenin GitHub’a yüklenişini ve çalıştırılmasını özetliyor:
 
-![Proje Kurulum GIF](./yemeksepeti.gif)
+![Proje GIF](./yemeksepeti.gif)
 
 ---
 
