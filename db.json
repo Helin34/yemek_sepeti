@@ -405,7 +405,7 @@
   ],
   "cart": [
     {
-      "id": "4fa7143c-a83e-4892-aef9-a50e2176fed2",
+      "id": "2b5714fb-ac4b-4efa-84e9-4667fd6f0ee2",
       "productId": "3",
       "title": "Patates Kızartması",
       "price": 65.99,
@@ -413,11 +413,27 @@
       "amount": 1
     },
     {
-      "id": "e740e66a-9b05-40f6-8c32-66bbb2cf02b3",
-      "productId": "4",
-      "title": "Double Burger",
-      "price": 189.99,
-      "photo": "https://picsum.photos/200?104",
+      "id": "9704d465-3487-412a-a30f-802ea7230ad5",
+      "productId": "16",
+      "title": "Sashimi Trio",
+      "price": 420,
+      "photo": "https://picsum.photos/200?16",
+      "amount": 1
+    },
+    {
+      "id": "91fbf61f-9b83-4461-ada7-0a29a62537f5",
+      "productId": "28",
+      "title": "Domates Çorbası",
+      "price": 55,
+      "photo": "https://picsum.photos/200?28",
+      "amount": 2
+    },
+    {
+      "id": "e8ac58ad-8f90-43d1-ad94-334b1319881b",
+      "productId": "29",
+      "title": "Mercimek Çorbası",
+      "price": 50,
+      "photo": "https://picsum.photos/200?29",
       "amount": 1
     }
   ]
