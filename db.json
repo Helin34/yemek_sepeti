@@ -1,0 +1,424 @@
+{
+  "restaurants": [
+    {
+      "id": "1",
+      "name": "Lezzetin Tadı",
+      "minPrice": 90,
+      "estimatedDelivery": 45,
+      "photo": "https://picsum.photos/200",
+      "rating": 4.7,
+      "isOpen": false,
+      "isDeliveryFree": true,
+      "distance": 5
+    },
+    {
+      "id": "2",
+      "name": "Anadolu Sofrası",
+      "minPrice": 120,
+      "estimatedDelivery": 35,
+      "photo": "https://picsum.photos/200?2",
+      "rating": 4.5,
+      "isOpen": true,
+      "isDeliveryFree": false,
+      "distance": 3
+    },
+    {
+      "id": "3",
+      "name": "Burger House",
+      "minPrice": 80,
+      "estimatedDelivery": 25,
+      "photo": "https://picsum.photos/200?3",
+      "rating": 4.2,
+      "isOpen": true,
+      "isDeliveryFree": true,
+      "distance": 2
+    },
+    {
+      "id": "4",
+      "name": "Pizza Punto",
+      "minPrice": 95,
+      "estimatedDelivery": 40,
+      "photo": "https://picsum.photos/200?4",
+      "rating": 4.6,
+      "isOpen": false,
+      "isDeliveryFree": false,
+      "distance": 6
+    },
+    {
+      "id": "5",
+      "name": "Kebapçı Ali Usta",
+      "minPrice": 150,
+      "estimatedDelivery": 50,
+      "photo": "https://picsum.photos/200?5",
+      "rating": 4.9,
+      "isOpen": true,
+      "isDeliveryFree": false,
+      "distance": 4
+    },
+    {
+      "id": "6",
+      "name": "Sushi Garden",
+      "minPrice": 200,
+      "estimatedDelivery": 55,
+      "photo": "https://picsum.photos/200?6",
+      "rating": 4.8,
+      "isOpen": true,
+      "isDeliveryFree": true,
+      "distance": 8
+    },
+    {
+      "id": "7",
+      "name": "Tatlıcı Dede",
+      "minPrice": 60,
+      "estimatedDelivery": 20,
+      "photo": "https://picsum.photos/200?7",
+      "rating": 4.3,
+      "isOpen": false,
+      "isDeliveryFree": true,
+      "distance": 1
+    },
+    {
+      "id": "8",
+      "name": "VeganVibe",
+      "minPrice": 110,
+      "estimatedDelivery": 30,
+      "photo": "https://picsum.photos/200?8",
+      "rating": 4.4,
+      "isOpen": true,
+      "isDeliveryFree": true,
+      "distance": 3
+    },
+    {
+      "id": "9",
+      "name": "Balıkçı Sahil",
+      "minPrice": 180,
+      "estimatedDelivery": 60,
+      "photo": "https://picsum.photos/200?9",
+      "rating": 4.6,
+      "isOpen": true,
+      "isDeliveryFree": false,
+      "distance": 10
+    },
+    {
+      "id": "10",
+      "name": "Tostçum",
+      "minPrice": 40,
+      "estimatedDelivery": 15,
+      "photo": "https://picsum.photos/200?10",
+      "rating": 4.1,
+      "isOpen": true,
+      "isDeliveryFree": true,
+      "distance": 1
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "title": "Izgara Somon",
+      "desc": "Taze somon balığı ızgara edilmiş",
+      "category": "Deniz Ürünleri",
+      "price": 378.99,
+      "photo": "rastgele.com",
+      "restaurantId": "1",
+      "isPopuler": true
+    },
+    {
+      "id": "2",
+      "title": "Karides Güveç",
+      "desc": "Özel soslu fırında karides güveç",
+      "category": "Deniz Ürünleri",
+      "price": 295.5,
+      "photo": "https://picsum.photos/200?102",
+      "restaurantId": "1",
+      "isPopuler": false
+    },
+    {
+      "id": "3",
+      "title": "Patates Kızartması",
+      "desc": "Altın sarısı çıtır patates kızartması",
+      "category": "Atıştırmalık",
+      "price": 65.99,
+      "photo": "https://picsum.photos/200?103",
+      "restaurantId": "3",
+      "isPopuler": true
+    },
+    {
+      "id": "4",
+      "title": "Double Burger",
+      "desc": "İki kat etli özel burger",
+      "category": "Burger",
+      "price": 189.99,
+      "photo": "https://picsum.photos/200?104",
+      "restaurantId": "3",
+      "isPopuler": true
+    },
+    {
+      "id": "5",
+      "title": "Margarita Pizza",
+      "desc": "Mozzarella ve domates soslu klasik pizza",
+      "category": "Pizza",
+      "price": 210,
+      "photo": "https://picsum.photos/200?105",
+      "restaurantId": "4",
+      "isPopuler": false
+    },
+    {
+      "id": "6",
+      "title": "Kebap Tabağı",
+      "desc": "Karışık kebap çeşitlerinden oluşan tabak",
+      "category": "Kebap",
+      "price": 320,
+      "photo": "https://picsum.photos/200?106",
+      "restaurantId": "5",
+      "isPopuler": true
+    },
+    {
+      "id": "7",
+      "title": "Sashimi Trio",
+      "desc": "Somon, ton balığı ve levrek sashimi tabağı",
+      "category": "Japon Mutfağı",
+      "price": 420,
+      "photo": "https://picsum.photos/200?107",
+      "restaurantId": "6",
+      "isPopuler": true
+    },
+    {
+      "id": "8",
+      "title": "Vegan Bowl",
+      "desc": "Avokado, nohut, kinoalı sağlıklı bowl",
+      "category": "Vegan",
+      "price": 155,
+      "photo": "https://picsum.photos/200?108",
+      "restaurantId": "8",
+      "isPopuler": false
+    },
+    {
+      "id": "9",
+      "title": "Sufle",
+      "desc": "Sıcak çikolatalı sufle",
+      "category": "Tatlı",
+      "price": 85,
+      "photo": "https://picsum.photos/200?109",
+      "restaurantId": "7",
+      "isPopuler": true
+    },
+    {
+      "id": "10",
+      "title": "Tavuklu Sandviç",
+      "desc": "Izgara tavuklu sağlıklı sandviç",
+      "category": "Sandviç",
+      "price": 110,
+      "photo": "https://picsum.photos/200?110",
+      "restaurantId": "10",
+      "isPopuler": false
+    },
+    {
+      "id": "11",
+      "title": "Karışık Kebap",
+      "desc": "Kebap çeşitlerinin bir arada sunumu",
+      "category": "Kebap",
+      "price": 320,
+      "photo": "https://picsum.photos/200?11",
+      "restaurantId": "5",
+      "isPopuler": true
+    },
+    {
+      "id": "12",
+      "title": "Adana Kebap",
+      "desc": "Acılı Adana kebap",
+      "category": "Kebap",
+      "price": 185,
+      "photo": "https://picsum.photos/200?12",
+      "restaurantId": "5",
+      "isPopuler": false
+    },
+    {
+      "id": "13",
+      "title": "Urfa Kebap",
+      "desc": "Acısız Urfa kebap",
+      "category": "Kebap",
+      "price": 180,
+      "photo": "https://picsum.photos/200?13",
+      "restaurantId": "5",
+      "isPopuler": false
+    },
+    {
+      "id": "14",
+      "title": "Tavuk Şiş",
+      "desc": "Izgara tavuk şiş",
+      "category": "Kebap",
+      "price": 160,
+      "photo": "https://picsum.photos/200?14",
+      "restaurantId": "5",
+      "isPopuler": true
+    },
+    {
+      "id": "15",
+      "title": "Kuzu Şiş",
+      "desc": "Yumuşak kuzu şiş",
+      "category": "Kebap",
+      "price": 240,
+      "photo": "https://picsum.photos/200?15",
+      "restaurantId": "5",
+      "isPopuler": false
+    },
+    {
+      "id": "16",
+      "title": "Sashimi Trio",
+      "desc": "Somon, ton balığı ve levrek sashimi",
+      "category": "Japon Mutfağı",
+      "price": 420,
+      "photo": "https://picsum.photos/200?16",
+      "restaurantId": "6",
+      "isPopuler": true
+    },
+    {
+      "id": "17",
+      "title": "California Roll",
+      "desc": "Avokado ve yengeç roll",
+      "category": "Japon Mutfağı",
+      "price": 150,
+      "photo": "https://picsum.photos/200?17",
+      "restaurantId": "6",
+      "isPopuler": false
+    },
+    {
+      "id": "18",
+      "title": "Salmon Nigiri",
+      "desc": "Somon dilimi nigiri",
+      "category": "Japon Mutfağı",
+      "price": 180,
+      "photo": "https://picsum.photos/200?18",
+      "restaurantId": "6",
+      "isPopuler": true
+    },
+    {
+      "id": "19",
+      "title": "Sufle",
+      "desc": "Sıcak çikolatalı sufle",
+      "category": "Tatlı",
+      "price": 85,
+      "photo": "https://picsum.photos/200?19",
+      "restaurantId": "7",
+      "isPopuler": true
+    },
+    {
+      "id": "20",
+      "title": "Pankek",
+      "desc": "Meyveli pankek",
+      "category": "Tatlı",
+      "price": 75,
+      "photo": "https://picsum.photos/200?20",
+      "restaurantId": "7",
+      "isPopuler": false
+    },
+    {
+      "id": "21",
+      "title": "Vegan Bowl",
+      "desc": "Kinoa, avokado ve nohut karışımı",
+      "category": "Vegan",
+      "price": 155,
+      "photo": "https://picsum.photos/200?21",
+      "restaurantId": "8",
+      "isPopuler": true
+    },
+    {
+      "id": "22",
+      "title": "Falafel Tabak",
+      "desc": "Humus ve sebzeli falafel",
+      "category": "Vegan",
+      "price": 140,
+      "photo": "https://picsum.photos/200?22",
+      "restaurantId": "8",
+      "isPopuler": false
+    },
+    {
+      "id": "23",
+      "title": "Balık Fileto",
+      "desc": "Kızarmış çıtır balık",
+      "category": "Deniz Ürünleri",
+      "price": 260,
+      "photo": "https://picsum.photos/200?23",
+      "restaurantId": "9",
+      "isPopuler": false
+    },
+    {
+      "id": "24",
+      "title": "Balık ve Patates",
+      "desc": "Fish & Chips tarzı tabak",
+      "category": "Deniz Ürünleri",
+      "price": 280,
+      "photo": "https://picsum.photos/200?24",
+      "restaurantId": "9",
+      "isPopuler": true
+    },
+    {
+      "id": "25",
+      "title": "Tavuklu Sandviç",
+      "desc": "Izgara tavuklu sağlıklı sandviç",
+      "category": "Sandviç",
+      "price": 110,
+      "photo": "https://picsum.photos/200?25",
+      "restaurantId": "10",
+      "isPopuler": false
+    },
+    {
+      "id": "26",
+      "title": "Çoban Salata",
+      "desc": "Domates, salatalık ve biber üçlüsü",
+      "category": "Salata",
+      "price": 70,
+      "photo": "https://picsum.photos/200?26",
+      "restaurantId": "10",
+      "isPopuler": false
+    },
+    {
+      "id": "27",
+      "title": "Sezar Salata",
+      "desc": "Tavuklu sezar salata",
+      "category": "Salata",
+      "price": 125,
+      "photo": "https://picsum.photos/200?27",
+      "restaurantId": "10",
+      "isPopuler": true
+    },
+    {
+      "id": "28",
+      "title": "Domates Çorbası",
+      "desc": "Klasik domates çorbası",
+      "category": "Çorba",
+      "price": 55,
+      "photo": "https://picsum.photos/200?28",
+      "restaurantId": "2",
+      "isPopuler": false
+    },
+    {
+      "id": "29",
+      "title": "Mercimek Çorbası",
+      "desc": "Tereyağlı mercimek çorbası",
+      "category": "Çorba",
+      "price": 50,
+      "photo": "https://picsum.photos/200?29",
+      "restaurantId": "2",
+      "isPopuler": true
+    }
+  ],
+  "cart": [
+    {
+      "id": "4fa7143c-a83e-4892-aef9-a50e2176fed2",
+      "productId": "3",
+      "title": "Patates Kızartması",
+      "price": 65.99,
+      "photo": "https://picsum.photos/200?103",
+      "amount": 1
+    },
+    {
+      "id": "e740e66a-9b05-40f6-8c32-66bbb2cf02b3",
+      "productId": "4",
+      "title": "Double Burger",
+      "price": 189.99,
+      "photo": "https://picsum.photos/200?104",
+      "amount": 1
+    }
+  ]
+}
